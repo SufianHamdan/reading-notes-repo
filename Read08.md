@@ -118,3 +118,79 @@ practice to have the content of the site separated from the rules that determine
 
 **Sometimes you might consider placing CSS rules in the same page as
 your HTML code if your creating a single page**
+
+### color
+The color property allows you to specify the color of text inside an element. You can specify any
+color in CSS in one of three ways:
+
+**rgb values**
+These express colors in terms of how much red, green and blue are used to make it up. 
+For example: rgb(100,100,90)
+**hex codes**
+These are six-digit codes that represent the amount of red, green and blue in a color, 
+preceded by a pound or hash # sign. For example: #ee3e80
+**color names**
+There are 147 predefined color names that are recognizedby browsers. For example:
+DarkCyan We look at these three different ways of specifying colors on the
+next double-page spread.
+
+### background-color
+CSS treats each HTML element as if it appears in a box, and the background-color property sets the color of the background for that box. You can specify your choice of background color in the same three ways you can specify foreground colors: RGB values, hex codes, and color names (covered on the next page).
+If you do not specify a background color, then the background is transparent. By default, most browser
+windows have a white background, but browser users can set a background color for their windows, so if you want
+to be sure that the background is white you can use the background-color property on the `<body>` element.
+We have also used the padding property to separate the text from the edges of the boxes.
+
+---
+
+### Cloring 
+
+**RGB Values**
+Values for red, green, and blue are expressed as numbers between 0 and 255.
+
+**Hex Codes**
+Hex values represent values for red, green, and blue in hexadecimal code.
+
+**Color Names**
+Colors are represented by predefined names. However, they are very limited in number.
+
+**Hue**
+Hue is near to the colloquial idea of color. Technically speaking however, a color can also have
+saturation and brightness as well as hue.
+
+**Saturation**
+Saturation refers to the amountof gray in a color. At maximum saturation, there would be no
+gray in the color. At minimum saturation, the color would be mostly gray.
+
+**Brigh tness**
+Brightness (or "value") refers to how much black is in a color. At maximum brightness, there
+would be no black in the color. At minimum brightness, the color would be very dark.
+
+**Contrast**
+When picking foreground and background colors, it is important to ensure that there is
+enough contrast for the text to be legible.
+
+**opacity, rgba**
+CSS3 introduces the opacity property which allows you to specify the opacity of an element
+and any of its child elements.  The value is a number between 0.0 and 1.0 (so a value of 0.5
+is 50% opacity and 0.15 is 15% opacity). The CSS3 rgba property allows you to specify a color, just like
+you would with an RGB value, but adds a fourth value to indicate opacity. This value is
+known as an alpha value and is a number between 0.0 and 1.0 (so a value of 0.5 is 50% opacity
+and 0.15 is 15% opacity). The rgba value will only affect the element on which it is applied (not child elements).
+
+### HSL, HSLA color
+CSS3 introduces an entirely new and intuitive way to specify colors using hue, saturation,
+and lightness values.
+
+**hue**
+This is expressed as an angle (between 0 and 360 degrees).
+
+**saturation**
+This is expressed as apercentage.
+**lightness**
+This is expressed as a percentage with 0% being white, 50% being normal, and 100% being black. The hsla color property allows you to specify color properties using hue, saturation, and lightness as above, and adds a
+fourth value which represents transparency (just like the rgba property). The a stands for:
+
+**alpha**
+This is expressed as a number between 0 and 1.0. For example, 0.5 represents 50% transparency, and 0.75
+represents 75% transparency.
